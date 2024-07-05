@@ -1,0 +1,123 @@
+# Node modules directory
+node_modules/
+
+# Build directories and output
+dist/
+build/
+
+# TypeScript cache and output
+*.tsbuildinfo
+*.d.ts
+*.d.ts.map
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Bundler/Build tool artifacts
+.eslintcache
+.parcel-cache
+.webpack/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Mac OS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory used by testing tools
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional yarn cache directory
+.yarn/
+
+# Temporary files and directories
+tmp/
+temp/
+
+# Linting and formatting reports
+*.lint
+.prettier/
+
+# Ignore Webpack Bundle Analyzer reports
+bundle-report.html
+
+# Local development server config files
+.vite/
+next.config.js
+
+# Storybook build output
+out/
+
+# Lock files for mono-repos (e.g., Lerna)
+lerna-debug.log
+
+# Exclude compiled code from Git
+*.js
+*.js.map
+*.jsx
+*.jsx.map
+*.cjs
+*.cjs.map
+*.mjs
+*.mjs.map
+
+# Ignore transpiled and bundled files
+*.css
+*.css.map
+
+# Ignore specific files related to your project
+# If you have any additional custom paths, include them here
+
+# Ignore JetBrains IDE project files
+*.iml
+.idea/
+
+# Ignore IntelliJ project files
+*.ipr
+*.iws
+.idea/
+
+# Ignore WebStorm project files
+.idea/
+
+# Ignore Visual Studio Code project files
+.vscode/
+
+# Ignore VSCode settings file
+settings.json
+
+# Ignore editor-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore custom paths and files (Add any other specific files/folders you want to ignore below)

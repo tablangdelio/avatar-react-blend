@@ -1,0 +1,39 @@
+{
+  "name": "react-avatar-blend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ 
+    "react",
+    "typescript",
+    "avatar",
+    "gradient",
+    "profile",
+    "generator",
+    "ui",
+    "component"
+  ],
+   "author": {
+    "name": "Delio Alina Tablang Jr",
+    "email": "tablangdelio@gmail.com",
+    "url": "https://github.com/tablangdelio"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.6.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.3",
+    "webpack": "^5.92.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
