@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */
@@ -103,6 +104,19 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+                                /* Skip type checking all .d.ts files. */
+    "outDir": "./dist",
+    "declaration": true, // Generate declaration files
+    "declarationDir": "./dist",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+ 
 }

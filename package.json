@@ -2,11 +2,14 @@
   "name": "react-avatar-blend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
-  "keywords": [ 
+  "keywords": [
     "react",
     "typescript",
     "avatar",
@@ -16,15 +19,20 @@
     "ui",
     "component"
   ],
-   "author": {
+  "author": {
     "name": "Delio Alina Tablang Jr",
     "email": "tablangdelio@gmail.com",
-    "url": "https://github.com/tablangdelio"
+    "url": "https://github.com/tablangdelio/avatar-react-blend"
   },
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "babel-loader": "^9.1.3",
     "eslint": "^9.6.0",
     "prettier": "^3.3.2",
     "typescript": "^5.5.3",
@@ -32,7 +40,7 @@
     "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
